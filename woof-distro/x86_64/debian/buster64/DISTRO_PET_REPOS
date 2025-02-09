@@ -14,9 +14,8 @@ else
 fi
 
 PKG_DOCS_PET_REPOS="
-z|https://distro.ibiblio.org/puppylinux/Packages-puppy-${DISTRO_DB_SUBNAME}-official|z
-z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE/${WCE_BRANCH}/woof-distro/Packages-puppy-noarch-official|z
-z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE/${WCE_BRANCH}/woof-distro/x86_64/Packages-puppy-common64-official|z
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/Packages-gj-noarch-official|z
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/x86_64/Packages-gj-noarch-official|z
 "
 
 #---------
