@@ -37,9 +37,9 @@ z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux-pkgs/master|Packages-gj-
 #   (and third, etc.) for pet pkgs
 
 PACKAGELISTS_PET_ORDER="
-Packages-puppy-${DISTRO_DB_SUBNAME}-official
-Packages-puppy-noarch-official
-Packages-puppy-common32-official
+Packages-gj-${DISTRO_DB_SUBNAME}-official
+Packages-gj-noarch-official
+Packages-gj-common32-official
 "
 
 
