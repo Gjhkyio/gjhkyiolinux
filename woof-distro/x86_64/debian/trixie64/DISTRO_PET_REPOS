@@ -16,7 +16,7 @@ fi
 WCE_BRANCH=testing
 
 PKG_DOCS_PET_REPOS="
-z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/x86/Packages-gj-common32-official|z
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/x86_64/Packages-gj-common32-official|z
 "
 
 #---------
