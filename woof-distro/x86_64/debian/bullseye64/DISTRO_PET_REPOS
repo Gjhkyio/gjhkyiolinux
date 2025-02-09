@@ -16,7 +16,7 @@ fi
 WCE_BRANCH=testing
 
 PKG_DOCS_PET_REPOS="
-z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE/${WCE_BRANCH}/woof-distro/Packages-puppy-noarch-official|z
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/Packages-gj-noarch-official|z
 "
 
 #---------
@@ -29,9 +29,7 @@ z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE/${WCE_BRANCH}/woo
 #   ex: Packages-puppy-4-official (note, url paths are in the database)
 
 PET_REPOS="
-z|https://ftp.nluug.nl/ftp/pub/os/Linux/distr/puppylinux|Packages-puppy-noarch-official
-z|https://ftp.cc.uoc.gr/mirrors/linux/puppylinux|Packages-puppy-noarch-official
-z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE-noarch/master|Packages-puppy-noarch-official
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux-pkgs/master|Packages-gj-noarch-official
 "
 
 #----------------------
@@ -41,7 +39,7 @@ z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE-noarch/master|Pac
 #   (and third, etc.) for pet pkgs
 
 PACKAGELISTS_PET_ORDER="
-Packages-puppy-noarch-official
+Packages-gj-noarch-official
 "
 
 #---------------
