@@ -28,18 +28,7 @@ z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux/testing/woof-distro/x86_
 #   ex: Packages-puppy-4-official (note, url paths are in the database)
 
 PET_REPOS='
-z|http://distro.ibiblio.org/puppylinux|Packages-puppy-*-official
-z|http://ftp.nluug.nl/ftp/pub/os/Linux/distr/puppylinux|Packages-puppy-*-official
-z|http://ftp.cc.uoc.gr/mirrors/linux/puppylinux|Packages-puppy-*-official
-z|ftp://mirror.aarnet.edu.au/pub/puppylinux|Packages-puppy-*-official
-z|http://distro.ibiblio.org/puppylinux|Packages-puppy-*-official
-z|http://ftp.nluug.nl/ftp/pub/os/Linux/distr/puppylinux|Packages-puppy-*-official
-z|ftp://ftp.vcu.edu/pub/gnu+linux/puppylinux|Packages-puppy-*-official
-z|http://ftp.cc.uoc.gr/mirrors/linux/puppylinux|Packages-puppy-*-official
-z|http://mirror.aarnet.edu.au/pub/puppylinux|Packages-puppy-*-official
-z|http://mirror.internode.on.net/pub/puppylinux|Packages-puppy-*-official
-z|http://distro.ibiblio.org/puppylinux/test|Packages-puppy-buster-official
-z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE-noarch/master|Packages-puppy-noarch-official
+z|http://raw.githubusercontent.com/Gjhkyio/GjhkyioLinux-pkgs/master|Packages-puppy-noarch-official
 '
 
 #----------------------
@@ -49,9 +38,9 @@ z|https://raw.githubusercontent.com/puppylinux-woof-CE/woof-CE-noarch/master|Pac
 #   (and third, etc.) for pet pkgs
 
 PACKAGELISTS_PET_ORDER="
-Packages-puppy-${DISTRO_DB_SUBNAME}-official
-Packages-puppy-noarch-official
-Packages-puppy-common64-official
+Packages-gj-${DISTRO_DB_SUBNAME}-official
+Packages-gj-noarch-official
+Packages-gj-common64-official
 "
 
 #---------------
